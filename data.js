@@ -1,5 +1,5 @@
-{
-"Movies": [
+const Data = {
+    Movies: [
     {
     "id": 20788,
     "title": "Dragon Ball Super: Super Hero",
@@ -1368,3 +1368,5 @@
     "stars": 0
     }
 ]}
+
+export {Data};
