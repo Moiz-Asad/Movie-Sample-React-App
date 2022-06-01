@@ -3,7 +3,7 @@ import React,{ useState } from "react"
 function Card(props) {
     const [MoveState,SetMoveState] = useState(false);
     const Style = {
-        Container:{
+        Container:{ 
             fontFamily: 'Arial, Helvetica, sans-serif',
             backgroundImage: `url(${props.src})`,
             margin: '3rem 3rem 3rem 3rem',
