@@ -12,7 +12,12 @@ code {
     monospace;
 }
 .App{
+  height: 100vh;
+  width: 100%;
+}
+.DashboardContainer{
   display: grid;
+  width: 80%;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   align-items: center;

@@ -5,14 +5,17 @@ function Card(props) {
     const Style = {
         Container:{ 
             fontFamily: 'Arial, Helvetica, sans-serif',
-            backgroundImage: `url(${props.src})`,
-            margin: '3rem 3rem 3rem 3rem',
+            backgroundImage: "url("+props.src +")",
+            margin: '1rem',
+            borderRadius: '8px',
             width: '185px',
             cursor:'pointer',
             height: '270px',
             textAlign: 'center',
         },
         HoverContainer:{
+            borderRadius: '5px',
+            boxShadow: '1px 1px 10px 0px rgba(255,255,255,0.5)',
             color: 'white',
             display: MoveState?'flex':'none',
             flexDirection: 'column',
